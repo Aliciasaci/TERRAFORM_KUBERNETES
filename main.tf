@@ -13,6 +13,10 @@ provider "azurerm" {
   features {}
 }
 
+data "azurerm_client_config" "current" {
+}
+
+
 
 # Main resource group
 resource "azurerm_resource_group" "rg_main" {
@@ -68,3 +72,17 @@ resource "azurerm_public_ip" "aks_public_ip" {
   }
 }
 
+#Role assignement
+#AcrPull pour le cluster Kubernetes
+resource "azurerm_role_assignment" "acr_pull_assignment" {
+  scope                = azurerm_container_registry.acr.id
+  role_definition_name = "AcrPull"
+  principal_id         = azurerm_kubernetes_cluster.rg_main.identity[0].principal_id
+}
+
+#!AcrPush pour votre utilisateur à revoir 
+# resource "azurerm_role_assignment" "acr_push_assignment" {
+#   scope                = azurerm_container_registry.acr.id
+#   role_definition_name = "AcrPush"
+#   principal_id         = data.azurerm_client_config.current.subscription_id
+# }
