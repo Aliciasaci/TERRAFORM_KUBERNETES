@@ -1,0 +1,502 @@
+   31  php artisan key:generate
+   32  php artisan migrate:fresh --seed
+   33  cd ../ 
+   34  cd src2
+   35  composer install
+   36  npm run build
+   37  php artisan key:generate
+   38  php artisan migrate:fresh --seed
+   39  #!/bin/bash
+   40  cd src1 
+   41  composer install 
+   42  npm run build
+   43  php artisan key:generate
+   44  php artisan migrate:fresh --seed
+   45  cd ../ 
+   46  cd src2
+   47  composer install
+   48  npm run build
+   49  php artisan key:generate
+   50  php artisan migrate:fresh --seed
+   51  #!/bin/bash
+   52  cd src1 
+   53  composer install 
+   54  npm run build
+   55  cd ../ 
+   56  cd src2
+   57  composer install
+   58  npm run build
+   59  #!/bin/bsh
+   60  docker-compose build --no-cache
+   61  docker-compose up
+   62  un build
+   63  cd ..
+   64  cd src2
+   65  composer install 
+   66  npm run build
+   67  #!/bin/bsh
+   68  docker-compose up -d
+   69  cd src1
+   70  composer install 
+   71  npm run build
+   72  php artisan key:generate
+   73  php artisan migrate --seed
+   74  cd ../src2
+   75  composer install 
+   76  npm run build
+   77  php artisan key:generate
+   78  php artisan migrate --seed
+   79  #!/bin/bsh
+   80  docker-compose up -d
+   81  cd src1
+   82  composer install 
+   83  npm run build
+   84  php artisan key:generate
+   85  cd ../src2
+   86  composer install 
+   87  npm run build
+   88  php artisan key:generate
+   89  #!/bin/bsh
+   90  docker-compose up -d
+   91  cd src1
+   92  composer install 
+   93  npm run build
+   94  php artisan key:generate
+   95  cd ../src2
+   96  composer install 
+   97  npm run build
+   98  php artisan key:generate
+   99  #!/bin/bsh
+  100  docker-compose up -d
+  101  cd src1
+  102  composer install 
+  103  npm run build
+  104  php artisan key:generate
+  105  cd ../src2
+  106  composer install 
+  107  npm run build
+  108  php artisan key:generate
+  109  #!/bin/bsh
+  110  docker-compose up -d
+  111  cd src1
+  112  composer install 
+  113  npm run build
+  114  php artisan key:generate
+  115  cd ../src2
+  116  composer install 
+  117  npm run build
+  118  php artisan key:generate
+  119  #!/bin/bsh
+  120  docker-compose up -d
+  121  cd src1
+  122  composer install 
+  123  npm run build
+  124  php artisan key:generate
+  125  cd ..
+  126  cd src2
+  127  composer install 
+  128  npm run build
+  129  php artisan key:generate
+  130  #!/bin/bsh
+  131  docker-compose up -d
+  132  cd src1
+  133  composer install 
+  134  npm run build
+  135  php artisan key:generate
+  136  cd ..
+  137  cd src2
+  138  composer install 
+  139  npm run build
+  140  php artisan key:generate
+  141  #!/bin/bsh
+  142  docker-compose up -d
+  143  cd src1
+  144  composer install 
+  145  npm run build
+  146  php artisan key:generate
+  147  cd ..
+  148  cd src2
+  149  composer install 
+  150  npm run build
+  151  php artisan key:generate
+  152  #!/bin/bsh
+  153  docker-compose up -d
+  154  cd src1
+  155  composer install 
+  156  npm run build
+  157  php artisan key:generate
+  158  cd ..
+  159  cd src2
+  160  composer install 
+  161  npm run build
+  162  php artisan key:generate
+  163  #!/bin/bsh
+  164  docker-compose up -d
+  165  if [ -d "src1" ] then echo 'existe'; fi
+  166  #!/bin/bsh
+  167  docker-compose up -d
+  168  if [ -d "src1" ] then echo 'existe'; fi
+  169  #!/bin/bsh
+  170  # docker-compose up -d
+  171  if [ -d "src1" ] then echo 'existe'; fi
+  172  #!/bin/bsh
+  173  # docker-compose up -d
+  174  if [ -d "src1" ] then echo 'existe'; fi
+  175  #!/bin/bsh
+  176  # docker-compose up -d
+  177  if [ -d "src1" ] then echo 'existe'; fi
+  178  #!/bin/bsh
+  179  # docker-compose up -d
+  180  if [ -d "src1" ] then echo 'existe'; fi
+  181  #!/bin/bsh
+  182  docker-compose up -d
+  183  if [ -d "src1" ] then echo 'existe'; fi
+  184  #!/bin/bsh
+  185  docker-compose up -d
+  186  if [ -d "src1" ]; then      cd src1     if [ ! -d "vendor" ]; then      composer install; fi     npm run build;     php artisan key:generate; ; else echo "nop"; fi
+  187  #!/bin/bsh
+  188  docker-compose up -d
+  189  if [ -d "src1" ]; then      cd src1     if [ ! -d "vendor" ]; then      composer install; fi     npm run build;     php artisan key:generate; ; else echo "nop"; fi
+  190  #!/bin/bsh
+  191  docker-compose up -d
+  192  if [ -d "src1" ]; then      cd src1     if [ ! -d "vendor" ]; then      composer install; fi     npm run build;     php artisan key:generate; ; else echo "nop"; fi
+  193  #!/bin/bsh
+  194  docker-compose up -d
+  195  if [ -d "src1" ]; then      cd src1     if [ ! -d "vendor" ]; then      composer install; fi     npm run build;     php artisan key:generate; ; else echo "nop"; fi
+  196  #!/bin/bsh
+  197  docker-compose up -d
+  198  if [ -d "src1" ]; then      cd src1     if [ ! -d "vendor" ]; then      composer install; fi     npm run build;     php artisan key:generate; ; else echo "nop"; fi
+  199  #!/bin/bsh
+  200  docker-compose up -d
+  201  if [ -d "src1" ]; then      cd src1     if [ ! -d "vendor" ]; then      composer install; fi     npm run build;     php artisan key:generate; ; else echo "nop"; fi
+  202  #!/bin/bsh
+  203  docker-compose up
+  204  if [ -d "src1" ]; then      cd src1     if [ ! -d "vendor" ]; then      composer install; fi     npm run build;     php artisan key:generate; ; else echo "nop"; fi
+  205  #!/bin/bsh
+  206  docker-compose up
+  207  if [ -d "src1" ]; then      cd src1     if [ ! -d "vendor" ]; then      composer install; fi     npm run build;     php artisan key:generate; ; else echo "nop"; fi
+  208  #!/bin/bsh
+  209  docker-compose up
+  210  if [ -d "src1" ]; then      cd src1     if [ ! -d "vendor" ]; then      composer install; fi     npm run build;     php artisan key:generate; ; else echo "nop"; fi
+  211  #!/bin/bsh
+  212  docker-compose up -d database-1, php1-1, php2-1, nginx1-1, nginx2-1
+  213  if [ -d "src1" ]; then      cd src1     if [ ! -d "vendor" ]; then      composer install; fi     npm run build;     php artisan key:generate; ; else echo "nop"; fi
+  214  #!/bin/bsh
+  215  docker-compose up database-1, php1-1, php2-1, nginx1-1, nginx2-1
+  216  if [ -d "src1" ]; then      cd src1     if [ ! -d "vendor" ]; then      composer install; fi     npm run build;     php artisan key:generate; ; else echo "nop"; fi
+  217  #!/bin/bsh
+  218  docker-compose up database-1
+  219  if [ -d "src1" ]; then      cd src1     if [ ! -d "vendor" ]; then      composer install; fi     npm run build;     php artisan key:generate; ; else echo "nop"; fi
+  220  #!/bin/bsh
+  221  docker-compose up database-1, php1-1, php2-1, nginx1-1, nginx2-1
+  222  if [ -d "src1" ]; then      cd src1     if [ ! -d "vendor" ]; then      composer install; fi     npm run build;     php artisan key:generate; ; else echo "nop"; fi
+  223  #!/bin/bsh
+  224  docker-compose up database-1, php1-1, php2-1, nginx1-1, nginx2-1
+  225  if [ -d "src1" ]; then      cd src1     if [ ! -d "vendor" ]; then      composer install; fi     npm run build;     php artisan key:generate; ; else echo "nop"; fi
+  226  #!/bin/bsh
+  227  docker-compose up -d
+  228  # if [ -d "src1" ]; then 
+  229  #     cd src1
+  230  #     if [ ! -d "vendor" ]; then 
+  231  #     composer install; fi
+  232  #     npm run build
+  233  #     php artisan key:generate
+  234  # ; else echo "nop"; fi
+  235  # cd ..
+  236  # if [ -d "src2" ]; then 
+  237  #     cd src2
+  238  #      if [ ! -d "vendor" ]; then 
+  239  #     composer install; fi
+  240  #     npm run build
+  241  #     php artisan key:generate
+  242  # ; else echo "nop"; fi
+  243  # docker-compose up mincraft-server
+  244  #!/bin/bsh
+  245  docker-compose up -d
+  246  # if [ -d "src1" ]; then 
+  247  #     cd src1
+  248  #     if [ ! -d "vendor" ]; then 
+  249  #     composer install; fi
+  250  #     npm run build
+  251  #     php artisan key:generate
+  252  # ; else echo "nop"; fi
+  253  # cd ..
+  254  # if [ -d "src2" ]; then 
+  255  #     cd src2
+  256  #      if [ ! -d "vendor" ]; then 
+  257  #     composer install; fi
+  258  #     npm run build
+  259  #     php artisan key:generate
+  260  # ; else echo "nop"; fi
+  261  # docker-compose up mincraft-server
+  262  #!/bin/bsh
+  263  docker-compose up -d
+  264  if [ -d "src1" ]; then  cd src1; if [ ! -d "vendor" ]; then  composer install; fi; npm run build; php artisan key:generate; ; else echo "nop"; fi
+  265  #!/bin/bsh
+  266  docker-compose up -d
+  267  if [ -d "src1" ]; then  cd src1; if [ ! -d "vendor" ]; then  composer install; fi; npm run build; php artisan key:generate;  else echo "nop"; fi
+  268  #!/bin/bsh
+  269  docker-compose up -d
+  270  if [ -d "src1" ]; then  cd src1; if [ ! -d "vendor" ]; then  composer install; fi; npm run build; php artisan key:generate;  else echo "nop"; fi
+  271  cd ..
+  272  if [ -d "src2" ]; then  cd src2; if [ ! -d "vendor" ]; then  composer install; fi npm run build; php artisan key:generate;  else echo "nop"; fi
+  273  #!/bin/bsh
+  274  docker-compose up -d
+  275  if [ -d "src1" ]; then  cd src1; if [ ! -d "vendor" ]; then  composer install; fi; npm run build; php artisan key:generate;  else echo "nop"; fi
+  276  cd ..
+  277  if [ -d "src2" ]; then  cd src2; if [ ! -d "vendor" ]; then  composer install; fi npm run build; php artisan key:generate;  else echo "nop"; fi
+  278  #!/bin/bsh
+  279  docker-compose up -d
+  280  if [ -d "src1" ]; then  cd src1; if [ ! -d "vendor" ]; then  composer install; fi; npm run build; php artisan key:generate;  else echo "nop"; fi
+  281  cd ..
+  282  if [ -d "src2" ]; then  cd src2; if [ ! -d "vendor" ]; then  composer install; fi npm run build; php artisan key:generate;  else echo "nop"; fi
+  283  #!/bin/bsh
+  284  docker-compose up -d
+  285  if [ -d "src1" ]; then  cd src1; composer install; npm run build; php artisan key:generate;  else echo "nop"; fi
+  286  cd ..
+  287  if [ -d "src2" ]; then  cd src2; composer install; npm run build; php artisan key:generate;  else echo "nop"; fi
+  288  #!/bin/bsh
+  289  docker-compose up -d
+  290  if [ -d "src1" ]; then  cd src1; composer install; npm run build; php artisan key:generate;  else echo "nop"; fi
+  291  cd ..
+  292  if [ -d "src2" ]; then  cd src2; composer install; npm run build; php artisan key:generate;  else echo "nop"; fi
+  293  #!/bin/bsh
+  294  docker-compose up -d
+  295  cd src1
+  296  composer install
+  297  npm run build
+  298  php artisan key:generate; 
+  299  cd ..
+  300  cd src2
+  301  composer install
+  302  npm run build
+  303  php artisan key:generate; 
+  304  #!/bin/bsh
+  305  docker-compose up -d
+  306  cd src1
+  307  composer install
+  308  npm run build
+  309  php artisan key:generate; 
+  310  cd ..
+  311  cd src2
+  312  composer install
+  313  npm run build
+  314  php artisan key:generate; 
+  315  #!/bin/bsh
+  316  docker-compose up -d
+  317  cd src1
+  318  composer install
+  319  npm run build
+  320  php artisan key:generate; 
+  321  cd ..
+  322  cd src2
+  323  composer install
+  324  npm run build
+  325  php artisan key:generate; 
+  326  #!/bin/bsh
+  327  docker-compose up -d
+  328  cd src1
+  329  composer install
+  330  npm run build
+  331  php artisan key:generate; 
+  332  cd ..
+  333  cd src2
+  334  composer install
+  335  npm run build
+  336  php artisan key:generate; 
+  337  #!/bin/bsh
+  338  docker-compose up -d
+  339  cd src1
+  340  composer install
+  341  npm run build
+  342  php artisan key:generate; 
+  343  cd ..
+  344  cd src2
+  345  composer install
+  346  npm run build
+  347  php artisan key:generate; 
+  348  #!/bin/bsh
+  349  docker-compose up -d
+  350  cd src1
+  351  composer install
+  352  npm run build
+  353  php artisan key:generate; 
+  354  cd ..
+  355  cd src2
+  356  composer install
+  357  npm run build
+  358  php artisan key:generate; 
+  359  #!/bin/bsh
+  360  docker-compose up -d
+  361  cd src1
+  362  composer install
+  363  npm run build
+  364  php artisan key:generate; 
+  365  cd ..
+  366  cd src2
+  367  composer install
+  368  npm run build
+  369  php artisan key:generate; 
+  370  #!/bin/bsh
+  371  docker-compose up -d
+  372  cd src1
+  373  composer install
+  374  npm run build
+  375  php artisan key:generate; 
+  376  cd ..
+  377  cd src2
+  378  composer install
+  379  npm run build
+  380  php artisan key:generate; 
+  381  #!/bin/bsh
+  382  docker-compose up -d
+  383  cd src1
+  384  composer install
+  385  npm run build
+  386  php artisan key:generate; 
+  387  cd ..
+  388  cd src2
+  389  composer install
+  390  npm run build
+  391  php artisan key:generate; 
+  392  #!/bin/bsh
+  393  docker-compose up -d
+  394  cd src1
+  395  composer install
+  396  npm run build
+  397  php artisan key:generate; 
+  398  cd ..
+  399  cd src2
+  400  composer install
+  401  npm run build
+  402  php artisan key:generate; 
+  403  #!/bin/bsh
+  404  docker-compose up -d
+  405  cd src1
+  406  composer install
+  407  npm run build
+  408  php artisan key:generate; 
+  409  cd ..
+  410  cd src2
+  411  composer install
+  412  npm run build
+  413  php artisan key:generate; 
+  414  #!/bin/bsh
+  415  docker-compose up -d
+  416  cd src1
+  417  composer install
+  418  npm run build
+  419  php artisan key:generate; 
+  420  cd ..
+  421  cd src2
+  422  composer install
+  423  npm run build
+  424  php artisan key:generate; 
+  425  git clone git@github.com:Londones/ChallengeSymfonyUX.git
+  426  git clone git@github.com:Aliciasaci/Projet_SE_JS.git
+  427  git clone git@github.com:Aliciasaci/Projet_SE_JS.git
+  428  git clone git@github.com:Aliciasaci/Projet_SE_JS.git
+  429  sudo
+  430  ls -la 
+  431  ls -l
+  432  chmod 777 Scripts/
+  433  ls
+  434  ls venv
+  435  git clone git@github.com:Aliciasaci/Portfolio.git
+  436  git clone git@github.com:Aliciasaci/rapport_stage.git
+  437  git clone git@github.com:SyphaxSarni/Calend.ai.git
+  438  # !bin/sh
+  439  buf generate
+  440  buf export . --output ../hero-api/src/proto
+  441  # !bin/sh
+  442  buf generate
+  443  buf export . --output ../recette-api/src/proto
+  444  gpg --full-generate-key
+  445  
+  446  gpg --list-secret-keys --keyid-format=long
+  447  gpg --armor --export CC23385C3C4EFA92
+  448  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  449  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
+  485  hhyjFnSBTzLl
+  486  =GFC8
+  487  -----END PGP PUBLIC KEY BLOCK-----
+  488  clear
+  489  gpg --list-secret-keys --keyid-format=long
+  490  gpg --export-secret-key -a CC23385C3C4EFA92
+  491  gpg --list-secret-keys --keyid-format=long
+  492  clear
+  493  az --version
+  494  [200~NAMESPACE=ingress-basic
+  495  NAMESPACE=ingress-basic
+  496  helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
+  497  az interactive
+  498  clear
+  499  NAMESPACE=ingress-basic
+  500  exit
+  501  helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
+  502  PUBLIC_IP=$(az network public-ip show  --resource-group 'Nom groupe de ressource cluster kube' -n 'Nom de l'adresse ip' --query "ipAddress" | tr -d '"')
+
+;
+  503  PUBLIC_IP=$(az network public-ip show  --resource-group 'Nom groupe de ressource cluster kube' -n 'Nom de l'adresse ip' --query "ipAddress" | tr -d '"')
+  504  clear
+  505  PUBLIC_IP=$(az network public-ip show  --resource-group MC_rg-esgi-alicia-saci_cluster_kube_francecentral -n aks-public-ip --query "ipAddress" | tr -d '"')
+  506  NAMESPACE=ingress
+  507  helm install ingress-nginx ingress-nginx/ingress-nginx   --create-namespace   --namespace $NAMESPACE   --set controller.service.loadBalancerIP=$PUBLIC_IP   --set controller.service.annotations."service\.beta\.kubernetes\.io/azure-load-balancer-health-probe-request-path"=/healthz 
+  508  NAMESPACE
+  509  echo $NAMESPACE
+  510  NAMESPACE
+  511  helm install ingress-nginx ingress-nginx/ingress-nginx   --create-namespace   --namespace $NAMESPACE   --set controller.service.loadBalancerIP=$PUBLIC_IP   --set controller.service.annotations."service\.beta\.kubernetes\.io/azure-load-balancer-health-probe-request-path"=/healthz 
+  512  NAMESPACE=ingress-basic
+  513  helm install ingress-nginx ingress-nginx/ingress-nginx   --create-namespace   --namespace $NAMESPACE   --set controller.service.loadBalancerIP=$PUBLIC_IP   --set controller.service.annotations."service\.beta\.kubernetes\.io/azure-load-balancer-health-probe-request-path"=/healthz 
+  514  kubectl create secret docker-registry secret-pull     --namespace ingress-basic     --docker-server=registryaliciasaci.azurecr.io     --docker-username=00000000-0000-0000-0000-000000000000     --docker-password=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlpCVlk6QlhBTjpURkZVOjNIWkw6TjQ2NTpKRlczOkpXN0w6TFlBVzpQNVNNOlJCUUc6S0szSDpZR1VEIn0.eyJqdGkiOiJhMWFhMzhlMy1iMThiLTRjMTItOWMxOS1jYjU2YzMwOWJlMDQiLCJzdWIiOiJhc2FjaTFAbXlnZXMuZnIiLCJuYmYiOjE3MDExOTg3ODksImV4cCI6MTcwMTIxMDQ4OSwiaWF0IjoxNzAxMTk4Nzg5LCJpc3MiOiJBenVyZSBDb250YWluZXIgUmVnaXN0cnkiLCJhdWQiOiJyZWdpc3RyeWFsaWNpYXNhY2kuYXp1cmVjci5pbyIsInZlcnNpb24iOiIxLjAiLCJyaWQiOiJkN2JhY2U2ZGM2N2Y0Y2JjYmY5MDlkOWM2ZjE5ZjIzYyIsImdyYW50X3R5cGUiOiJyZWZyZXNoX3Rva2VuIiwiYXBwaWQiOiIwNGIwNzc5NS04ZGRiLTQ2MWEtYmJlZS0wMmY5ZTFiZjdiNDYiLCJ0ZW5hbnQiOiJjMzcxZDRmNS1iMzRmLTRiMDYtOWU2Ni01MTdmZWQ5MDQyMjAiLCJwZXJtaXNzaW9ucyI6eyJBY3Rpb25zIjpbInJlYWQiLCJ3cml0ZSIsImRlbGV0ZSIsIm1ldGFkYXRhL3JlYWQiLCJtZXRhZGF0YS93cml0ZSIsImRlbGV0ZWQvcmVhZCIsImRlbGV0ZWQvcmVzdG9yZS9hY3Rpb24iXSwiTm90QWN0aW9ucyI6bnVsbH0sInJvbGVzIjpbXX0.BxRN3XU9U1jxMe0VcmsX-4hUKqa2d2ywEq9uKmxGayk8MqH99xkSAsScX2bU5J9CSdCCwbbhu5ZyI3t3-cZ5z0YFDOcl1fQkXZgZK3CKdYUGjq-k-BI1l2txBoaRVAXyjkepFd5KFatzUehB3mKhs5RKCLAsKYOE0GG1tVV7pkkcXwsCZ7AM9U8qEiUq902Zq-ki6OeU173gy6DL2C_vUrq39UkFKrpvf0-QHIhW8A7zq1DLTjEAO-cjHY0ztpGh-VVNxt6h6jHEGHTSNMdh4ToSLhi0IXZ0aEexLz9_vLOnEZAmH-e1DEWQw6Zf7OwMVQhvrETbyZycgKFybyIChQ
+  515  kubectl apply -f pods/flask.yaml --namespace ingress-basic
+  516  clear
+  517  kubectl apply -f pods/flask.yaml --namespace ingress-basic
+  518  kubectl apply -f pods/ingress.yaml --namespace ingress-basic
+  519  echo $PUBLIC_IP
+  520  kubectl apply -f kubernetes/redis.yaml --namespace ingress-basic
+  521  kubectl apply -f kubernetes/redis.yaml --namespace ingress-basic
+  522  kubectl get pods -n ingress-basic
+  523  kubectl get pods -n ingress-basic -o wide
+  524  echo $PUBLIC_IP
+  525  kubectl apply -f kubernetes/ingress.yaml --namespace ingress-basic
+  526  kubectl apply -f kubernetes/ingress.yaml --namespace ingress-basic
+  527  kubectl port-forward flask-app-7b6d654c5b-t7gk2 8000:8000
+  528  kubectl port-forward flask-app-7b6d654c5b-t7gk2 8000:8000 -n ingress-basic
+  529  history
+  530  history > history.txt
